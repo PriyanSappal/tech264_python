@@ -12,3 +12,6 @@
 ### Task: If Time: [Magic number guessing game](Magic_number_game.py)
 
 ### Task: If Time: [FizzBuzz](FizzBuzz.py)
+* Consolidation of Control flow
+
+### Task: If Time

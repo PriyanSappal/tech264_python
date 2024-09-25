@@ -7,5 +7,8 @@
 ### Task: [While loops](While_loops.py)
 
 ### Task: [Use 'While Loop' to verify user input of age](prompt_user_for_age_loop.py)
+* Use .isdigit()
 
 ### Task: If Time: [Magic number guessing game](Magic_number_game.py)
+
+### Task: If Time: [FizzBuzz](FizzBuzz.py)

@@ -9,7 +9,7 @@ Y_N = input("Are you ready to play?Y/N ")
 if Y_N != "Y":
     print("Go away!")
     sys.exit()
-commit
+
 name = input("What is your name? ")
 print(f"Hello, {name}! Let's roll the dice.")
 

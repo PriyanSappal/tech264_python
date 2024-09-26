@@ -261,3 +261,59 @@ print(hi.startswith('H'))  # True if string starts with 'H'
 ```
 # Day 2 Tasks: [Task Day2](Task_Day2.md)
 # Day 3 Tasks: [Control Flow](Control_Flow.md)
+# Day 4
+
+* Modules - single file imported 
+* Libraries - set of files imported
+* Packages - library/ mmodules installable 
+
+# JSON - JavaScript Object Notation
+## 1. What does JSON stand for?
+- **JSON** stands for **JavaScript Object Notation**.
+
+## 2. What is JSON used for?
+- JSON is a lightweight data-interchange format used for transmitting data between a server and a client, commonly used in web applications, APIs, and configuration files.
+
+## 3. What is JSON written in?
+- JSON is based on **JavaScript** syntax but is language-independent. It can be used in many programming languages such as Python, Java, C#, and JavaScript.
+
+## 4. Simple Example of JSON
+
+Here's an example of JSON representing a person (similar to how dictionaries are in python):
+
+```json
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "john.doe@example.com",
+  "isStudent": false,
+  "courses": ["Math", "Physics", "Computer Science"],
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "zipcode": "10001"
+  }
+}
+```
+## 5. Advantages of using JSON
+* Lightweight: It has a simple, compact syntax for efficient data transfer. 
+* Human-readable: The structure is easy to understand. 
+* Language-independent: Can be used with most modern programming languages. 
+* Easy to parse: Many libraries support JSON parsing. 
+* Supports complex data: Nested objects and arrays allow for hierarchical data structures.
+
+## 6. Data Types that can be stored in JSON
+* String
+* Number
+* Boolean
+* Null
+* Array
+* Object
+
+## 7. Syntax
+* Follows name-value pairs (key-value pairs) just like dictionaries
+  * "name": "Priyan"
+* Objects: An object is a collection of key-value pairs enclosed in curly braces {}. 
+* You separate data from one another through commas. 
+* JSON arrays are like lists in python and are enclosed using [].
+

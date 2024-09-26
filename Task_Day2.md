@@ -67,3 +67,5 @@ print(essentials.count("bread"))
   * Use Cases: Frozen sets are useful when you need to ensure that the data will not change (e.g., as keys in dictionaries or when adding sets to other sets). Normal sets are useful when you need a collection of unique items that can be updated.
 
 ### If time: Task: [Waiter Helper List](Waiter_helper_list.py)
+
+

@@ -259,5 +259,5 @@ print(hi.endswith('!'))  # True if string ends with '!'
 # Check if 'hi' starts with a capital "H"
 print(hi.startswith('H'))  # True if string starts with 'H'
 ```
-# Day 2 Tasks: [Task_Day2.md](Task_Day2.md)
-
+# Day 2 Tasks: [Task Day2](Task_Day2.md)
+# Day 3 Tasks: [Control Flow](Control_Flow.md)

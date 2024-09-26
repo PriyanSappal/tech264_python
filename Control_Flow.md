@@ -1,6 +1,6 @@
 # Day 3: Control Flow
 
-### Task: IF statements: [Print Movie Rating Meanings](Tasks%2FVariables%2FPrint_Movie_Rating_Meanings.py)
+### Task: IF statements: [Print Movie Rating Meanings](Print_Movie_Rating_Meanings.py)
 
 ### Task: [For Loops](For_Loops.py)
 
@@ -14,4 +14,4 @@
 ### Task: If Time: [FizzBuzz](FizzBuzz.py)
 * Consolidation of Control flow
 
-### Task: If Time
+### Task: If Time: [Control Flow Game](Control_Flow_Game.py)

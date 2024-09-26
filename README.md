@@ -260,12 +260,12 @@ print(hi.endswith('!'))  # True if string ends with '!'
 print(hi.startswith('H'))  # True if string starts with 'H'
 ```
 # Day 2 Tasks: [Task Day 2](Task_Day2.md)
-# Day 3 Tasks: [Control Flow](Day 3/Control_Flow.md)
+# Day 3 Tasks: [Control Flow](Day_3/Control_Flow.md)
 # Day 4
 
 * Modules - single file imported 
 * Libraries - set of files imported
-* Packages - library/ mmodules installable 
+* Packages - library/modules installable 
 
 # JSON - JavaScript Object Notation
 ## 1. What does JSON stand for?

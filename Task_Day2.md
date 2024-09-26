@@ -14,7 +14,7 @@ What is slicing strings?
 ### Task:[Concatenates_with_diff_data_types.py](Day_1/Concatenates_with_diff_data_types.py)
 * Concatenation is the process of joining two or more strings together using the + operator in Python. When you concatenate strings, you combine them into a single, larger string. This is often used to create more readable or dynamic text.
 
-### Task: [f-string](Day 3/f-string.py)
+### Task: [f-string](Day_3/f-string.py)
 * f-string allows you to put variables in without having to use commas and quotation marks to separate. 
 * f"Pi to 3 decimal places: {pi:.3f}" formats the pi value to 3 decimal places (.3f).
 * f"You scored {score_as_decimal}" directly prints the decimal value without formatting.

@@ -261,7 +261,11 @@ print(hi.startswith('H'))  # True if string starts with 'H'
 ```
 # Day 2 Tasks: [Task Day 2](Task_Day2.md)
 # Day 3 Tasks: [Control Flow](Day_3/Control_Flow.md)
-# Day 4
+# Day 4:
+
+## Task 1 and 2: [Simple Calculator](Day_4%2Fmodules_Libraries_packages%2Fsimple_calc.py)
+
+## Task 3: Research JSON
 
 * Modules - single file imported 
 * Libraries - set of files imported
@@ -317,3 +321,15 @@ Here's an example of JSON representing a person (similar to how dictionaries are
 * You separate data from one another through commas. 
 * JSON arrays are like lists in python and are enclosed using [].
 
+### Encoding:
+
+Converts data into a specific format for efficient storage or transmission.
+Focuses on transforming the representation of data (e.g., encoding a string as bytes in UTF-8).
+
+### Serialising:
+
+Converts complex data structures (e.g., Python objects like dictionaries) into a format that can be easily saved or transmitted (like JSON, XML, or binary formats).
+Focuses on converting in-memory objects into a storable or transmittable format (e.g., converting a Python dictionary into a JSON string).
+
+## Task 4: [JSON Task](Day_4%2FJSON_Task.py)
+## Task 5: [parse_json_to_dict.py](Day_4%2Fparse_json_to_dict.py)

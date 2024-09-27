@@ -1,3 +1,5 @@
+import json
+
 # create the dictionary
 servers_dict = {
     "server1": {
@@ -13,3 +15,11 @@ servers_dict = {
         "status": "maintenance"
     }
 }
+
+# Convert the dictionary to a JSON-formatted string
+json_string = json.dumps(servers_dict, indent=4)  # 'indent=4' is used for pretty-printing
+print(json_string)
+
+# Convert the dictionary to a JSON file
+with open("output.json", 'w') as json_file:
+    json.dump(servers_dict, json_file, indent=4)  # Write dictionary to file in JSON format

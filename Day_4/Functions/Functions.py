@@ -35,7 +35,7 @@ def print_something(name):
 
 
 def greet(name: str):
-    print(f"Hello, my name is  {name}")
+    print(f"Hello, my name is {name}")
 
 
 greet("Susan")
@@ -149,3 +149,5 @@ print(division(2,5))
 
 
 # 9. What are some good practices when it comes to functions?
+# Make sure you choose a good function name
+#

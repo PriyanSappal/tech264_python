@@ -53,7 +53,7 @@ print(essentials.count("bread"))
 * The key acts as a label, and the value can be any data type (string, list, integer, etc.). 
 * Each key must be unique, and values are accessed by referencing their corresponding key.
 
-### Task: [Using Sets](Using%20Sets.py) {}
+### Task: [Using Sets](Day_2%2FUsing_Sets.py)  {}
 * A set is an unordered collection of unique elements.
 * Two ways in which it is different from a tuple and list:
 1) Sets automatically remove duplicate items.

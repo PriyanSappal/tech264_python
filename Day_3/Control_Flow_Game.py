@@ -4,7 +4,7 @@ import sys
 
 dice = random.randint(1,6)
 print("Welcome to the dice game!")
-Y_N = input("Are you ready to play?Y/N ")
+Y_N = input("Are you ready to play? Y/N ")
 
 if Y_N != "Y":
     print("Go away!")

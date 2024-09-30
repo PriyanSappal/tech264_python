@@ -25,3 +25,5 @@ print(Hw[:5])  # This prints the first five characters, starting from index 0 to
 
 # Starts from the second, stops at the fifth (doesn't include it)
 print(Hw[1:5])  # This prints the substring from index 1 up to (but not including) index 5 ("ello").
+
+print(Hw[::-1])

@@ -1,10 +1,10 @@
 # User story 1
 
-# As a user, I want to be able to guess a number and know if i got it correct or not, so that I can know if
+# As a user, I want to be able to guess a number and know if I got it correct or not, so that I can know if
 # I won or not.
 import random
 # Define/assign number to a variable called magic_number
-magic_number = random.randint(1,20)
+magic_number = random.randint(1, 20)
 attempt = 5
 # Ask user for input
 i = 0
@@ -34,4 +34,3 @@ while i < attempt:
 
 
 # Allow the user 5 guesses
-

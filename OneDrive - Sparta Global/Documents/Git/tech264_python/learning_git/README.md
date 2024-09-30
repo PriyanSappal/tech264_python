@@ -204,3 +204,56 @@ git push -u origin main
 * Hidden system files. 
 
 * SOLUTION: .gitignore
+
+This removes the idea file:
+```bash
+ git rm --cached .idea
+```
+
+```bash
+git rm --cached -r .idea
+```
+
+Danger: If the file is still accessible in a previous commit 
+* Option 1: Remove previous commits with that file (e.g. use 'git reset' - DANGEROUS)
+* Option 2: 
+1. Remove GitHub repo (Now safe!)
+2. Remove sensitive from your local file
+3. Remove .git folder from your local repo
+
+# Ignoring the `.idea` folder in Git
+
+If you're using  PyCharm, you may want to ignore the `.idea` folder from being tracked by Git, as it contains IDE-specific settings.
+
+## Steps to Ignore `.idea` Folder
+
+### 1. Create or Edit `.gitignore` File
+
+- If you don't already have a `.gitignore` file in the root of your repository, create one.
+- Open the `.gitignore` file and add the following line:
+
+   ```bash
+   .idea/
+   ```
+
+This will ensure that Git ignores the entire `.idea` folder, which contains IDE-specific settings.
+
+### 2. Remove `.idea` from Version Control (If Already Tracked)
+
+If the `.idea` folder has already been committed to the repository, Git won’t ignore it until you remove it from the tracking. Run the following command to remove it from version control while keeping it locally:
+
+```bash
+git rm -r --cached .idea/
+```
+
+This command removes the `.idea` folder from the Git index but keeps it on your local filesystem.
+
+### 3. Commit the Changes
+
+After ignoring the `.idea` folder and removing it from version control, commit the changes:
+
+```bash
+git commit -m "Ignore .idea folder"
+```
+
+Now, the `.idea` folder will be ignored by Git, and it won’t be included in future commits.
